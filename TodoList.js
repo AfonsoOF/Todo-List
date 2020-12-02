@@ -60,8 +60,9 @@ export default function App() {
     let newNewTask = {
       name: newTask,
       priority: currentPriority
+      
     }
-
+    
     setTask([...task, newNewTask]);
     setNewTask("");
 
